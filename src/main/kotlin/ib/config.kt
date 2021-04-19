@@ -3,7 +3,7 @@ package ib
 import bon.*
 
 object IbConfig {
-  val ib_port: Int = Env["ib_port", "7496"].toInt()
+  val ib_port: Int = Env["ib_port", "7497"].toInt()
 
   // Port for the HTTP API that would be provided by this adapter
   val http_port: Int = Env["http_port", "8001"].toInt()
